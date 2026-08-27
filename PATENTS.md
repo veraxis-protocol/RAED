@@ -1,35 +1,23 @@
 # Patent Notice
 
-## Owner representation
+## Patent protection
 
-The project owner represents **RAED as patented technology**.
+**RAED is patented technology.**
 
-This bootstrap repository does not invent or publish an unverified RAED-specific patent/application number. When an authoritative RAED filing identifier is made available for publication, this notice should be updated by a dedicated reviewed change.
+The project owner has elected not to disclose patent or patent-application identifiers in this public release. This repository therefore does not enumerate filing numbers, publication numbers, jurisdictions, priority claims, family members, prosecution history, or other non-public patent metadata.
 
-## Publicly verifiable historical RAE lineage
+No unverified patent identifier is included in this repository. The absence of a specific identifier here should not be interpreted as a representation that no additional patent rights, pending applications, continuations, divisionals, foreign counterparts, or related rights exist.
 
-A historical recurrent encoder/decoder technology discussed in the RAED/RAE lineage is:
-
-- **U.S. Patent No. 10,706,351**
-- Title: **Recurrent encoder and decoder**
-- U.S. application: **15/251,938**
-- Filed: **August 30, 2016**
-- Published application: **US 2018/0060727 A1**
-- Granted: **July 7, 2020**
-- Inventor in the public record: **Blake Rainwater**
-- Assignee in the public record: **American Software Safety Reliability Co.**
-- Public status currently reported by Google Patents: **Expired - Fee Related**, with a lapse event dated August 12, 2024.
-
-This repository does **not** represent that Veraxis owns U.S. Patent No. 10,706,351.
+If patent identifiers are later approved for public disclosure, they should be added through a dedicated reviewed change with authoritative source verification.
 
 ## License interaction
 
-The PolyForm Noncommercial License 1.0.0 in this repository contains a patent-license clause. That clause grants only patent rights that the licensor can license or later becomes able to license.
+The PolyForm Noncommercial License 1.0.0 in this repository contains a patent-license clause. That clause grants only patent rights that the licensor can license or later becomes able to license, and only on the terms stated in the license.
 
-Nothing in this file expands that grant, transfers third-party patent rights, or makes a representation about ownership of patent rights not identified by an authoritative record.
+Nothing in this notice expands the license grant, transfers third-party patent rights, or grants commercial rights beyond the repository license.
 
 ## Commercial rights
 
-The repository license governs the software. Patent rights, trademark rights, confidential know-how, services, certification, and commercial authorization may require separate rights.
+The repository license governs the software. Patent rights, trademark rights, confidential know-how, services, certification, and commercial authorization may require separate rights or agreements.
 
 This notice is informational and is not legal advice.

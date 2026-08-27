@@ -548,15 +548,11 @@ See [`CLAIMS.md`](CLAIMS.md).
 
 ## Patent notice
 
-**The project owner represents RAED as patented technology.**
+**RAED is patented technology.**
 
-RAED's historical recurrent encoder/decoder lineage also references U.S. Patent No. **10,706,351**, “Recurrent encoder and decoder.” Public patent records identify Blake Rainwater as inventor and American Software Safety Reliability Co. as assignee; the public record currently reports that patent as expired for failure to pay maintenance fees.
+Patent and patent-application identifiers are intentionally not disclosed in this public release. This repository is not a complete schedule of patent rights, and it does not publish unverified filing identifiers.
 
-This repository does not represent that Veraxis owns U.S. Patent No. 10,706,351.
-
-Other RAED-specific patent rights or pending applications, if any, are not enumerated in this public bootstrap package unless and until authoritative identifiers are published.
-
-The software license's patent grant applies only to patent claims the licensor can license, as stated in the license itself.
+The software license and patent rights are distinct. The patent grant in [`LICENSE`](LICENSE) applies only to patent claims the licensor can license, exactly as stated in the license. Commercial authorization may require separate rights.
 
 See [`PATENTS.md`](PATENTS.md).
 
