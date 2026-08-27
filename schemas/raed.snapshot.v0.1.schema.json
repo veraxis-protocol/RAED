@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://veraxis.one/schemas/raed.snapshot.v0.1.schema.json",
+  "title": "RAED Snapshot Identity v0.1",
+  "type": "object",
+  "required": [
+    "snapshot_digest"
+  ],
+  "properties": {
+    "snapshot_digest": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$"
+    }
+  }
+}

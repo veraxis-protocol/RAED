@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.23.x'
+          cache: true
+      - run: gofmt -l ./cmd ./raed ./simulator | tee /tmp/gofmt.txt
+      - run: test ! -s /tmp/gofmt.txt
+      - run: go vet ./...
+      - run: go test -race ./...
+      - run: go run ./cmd/raed scale -agents 1000 -connections 10000 -seed 42

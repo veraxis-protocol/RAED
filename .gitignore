@@ -1,0 +1,7 @@
+/bin/
+/dist/
+*.zip
+*.out
+coverage.txt
+benchmarks/results/*.tmp
+.DS_Store

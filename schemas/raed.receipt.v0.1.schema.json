@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://veraxis.one/schemas/raed.receipt.v0.1.schema.json",
+  "title": "RAED Resolution Receipt v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "receipt_id",
+    "query_digest",
+    "status",
+    "raed_snapshot_digest",
+    "issued_at"
+  ],
+  "properties": {
+    "receipt_id": {
+      "type": "string"
+    },
+    "query_digest": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "RESOLVED",
+        "CONFLICTING",
+        "SEMANTIC_ZERO",
+        "LIMIT_EXCEEDED"
+      ]
+    },
+    "resolved_relation_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "consulted_relation_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "raed_snapshot_digest": {
+      "type": "string"
+    },
+    "issued_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

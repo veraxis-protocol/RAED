@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://veraxis.one/schemas/raed.relation.v0.1.schema.json",
+  "title": "RAED Relation v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "relation_id",
+    "subject_id",
+    "predicate_id",
+    "object_id",
+    "context_id",
+    "observer_id",
+    "recorded_at",
+    "epistemic_status",
+    "lifecycle_status",
+    "payload_digest"
+  ],
+  "properties": {
+    "relation_id": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$"
+    },
+    "subject_id": {
+      "type": "string"
+    },
+    "predicate_id": {
+      "type": "string"
+    },
+    "object_id": {
+      "type": "string"
+    },
+    "context_id": {
+      "type": "string"
+    },
+    "observer_id": {
+      "type": "string"
+    },
+    "recorded_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "epistemic_status": {
+      "enum": [
+        "UNVERIFIED",
+        "SUPPORTED",
+        "VERIFIED",
+        "DERIVED",
+        "CONFLICTING"
+      ]
+    },
+    "lifecycle_status": {
+      "enum": [
+        "ACTIVE",
+        "EXPIRED",
+        "REVOKED",
+        "SUPERSEDED",
+        "QUARANTINED",
+        "REEVALUATION_REQUIRED"
+      ]
+    },
+    "semantic_dimensions": {
+      "type": "object"
+    },
+    "source_dependencies": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "parent_relation_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "constraint_digest": {
+      "type": "string"
+    },
+    "payload_digest": {
+      "type": "string",
+      "pattern": "^sha256:[0-9a-f]{64}$"
+    },
+    "signature": {
+      "type": "string"
+    }
+  }
+}

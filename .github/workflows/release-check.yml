@@ -1,0 +1,20 @@
+name: Release Check
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  release-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.23.x'
+      - run: ./scripts/verify.sh
+      - run: ./scripts/scale-100k.sh
+      - run: ./scripts/manifest.sh
+      - run: sha256sum -c MANIFEST.sha256

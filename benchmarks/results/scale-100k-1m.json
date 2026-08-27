@@ -1,0 +1,10 @@
+{
+  "agents": 100000,
+  "connections": 1000000,
+  "seed": 42,
+  "generation_time_ns": 224592758,
+  "invalidation_time_ns": 10456597,
+  "affected_agents": 99994,
+  "heap_alloc_bytes": 18863280,
+  "total_alloc_bytes": 21132056
+}

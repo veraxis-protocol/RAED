@@ -1,0 +1,13 @@
+{
+  "version": "v0.1.0-reference-bootstrap",
+  "language": "Go",
+  "go_module": "github.com/veraxis-protocol/RAED",
+  "license": "PolyForm Noncommercial License 1.0.0",
+  "license_git_blob_sha": "1a71cb64397535482ff19542d1093c0d4a6442d0",
+  "source_tree_digest_sha256": "42b63dfad74a57dcacf1360304dab1478b7e51a2b007ee79fd69ec5296a54a2e",
+  "reference_scale": {
+    "agents": 100000,
+    "connections": 1000000,
+    "seed": 42
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "measured_at_utc": "2026-08-27T21:45:39Z",
+  "os": "Linux 6.18.35 x86_64",
+  "go": "go version go1.23.2 linux/amd64",
+  "logical_cpus": 5,
+  "cpu_model": "Intel(R) Xeon(R) Platinum 8370C CPU @ 2.80GHz",
+  "source_tree_digest_sha256": "42b63dfad74a57dcacf1360304dab1478b7e51a2b007ee79fd69ec5296a54a2e",
+  "command": "go run ./cmd/raed scale -agents 100000 -connections 1000000 -seed 42"
+}

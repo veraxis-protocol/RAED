@@ -1,0 +1,6 @@
+fuzz: elapsed: 0s, gathering baseline coverage: 0/51 completed
+fuzz: elapsed: 0s, gathering baseline coverage: 51/51 completed, now fuzzing with 5 workers
+fuzz: elapsed: 3s, execs: 19595 (6531/sec), new interesting: 4 (total: 55)
+fuzz: elapsed: 3s, execs: 19595 (0/sec), new interesting: 4 (total: 55)
+PASS
+ok  	github.com/veraxis-protocol/RAED/raed	3.049s
