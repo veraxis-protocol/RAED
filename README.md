@@ -19,6 +19,18 @@ RAED is not a vector database, a truth engine, an agent framework, a policy engi
 
 > **Core invariant:** machine state does not gain truth, authority, scope, currentness, or admissibility merely because it was stored, copied, summarized, replayed, or transmitted.
 
+## Role in Open Institutional Computation
+
+**Category:** Open Institutional Computation  
+**This component:** Provenance-preserving semantic state substrate — stable identity, explicit context, provenance, lifecycle and dependency structure for persistent machine state  
+**Upstream:** Whatever produced the stored state, including any institutional authority or control state established elsewhere; RAED preserves what it is given and does not upgrade it  
+**Downstream:** Systems that must decide what a stored object is, where it came from, what it depends on, and whether an upstream change should invalidate or re-evaluate it  
+**Canonical category thesis:** https://github.com/veraxis-protocol/institutional-continuity/blob/main/THESIS.md
+
+The core invariant above is a non-collapse rule of that field: storage, copying, summarization, replay and transmission are not sources of truth, authority, scope, currentness or admissibility. RAED preserves the distinction; it does not establish institutional authority, interpret governing sources, or perform institutional admission.
+
+Architectural role does not imply production readiness; see `CLAIMS.md`, `LIMITATIONS.md` and `CONFORMANCE.md` for the exact demonstrated scope.
+
 ## Why RAED exists
 
 A simple agent exchange is easy to picture:
